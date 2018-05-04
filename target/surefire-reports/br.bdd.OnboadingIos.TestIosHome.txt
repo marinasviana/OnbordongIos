@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: br.bdd.OnboadingIos.TestIosHome
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 46.152 sec <<< FAILURE! - in br.bdd.OnboadingIos.TestIosHome
+br.bdd.OnboadingIos.TestIosHome  Time elapsed: 46.152 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: EACCES: permission denied, open '/Users/m.siqueira.viana/Library/Logs/DiagnosticReports/XCSBuilderService_2018-05-03-153245_AMAC02VD5T9HV29.crash' (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 45.62 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'AMAC02VD5T9HV29', ip: '10.81.168.6', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.ios.IOSDriver
+	at br.bdd.OnboadingIos.TestIosHome.setup(TestIosHome.java:32)
+
+br.bdd.OnboadingIos.TestIosHome  Time elapsed: 46.152 sec  <<< ERROR!
+java.lang.NullPointerException
+	at br.bdd.OnboadingIos.TestIosHome.testCaseTearDown(TestIosHome.java:62)
+
